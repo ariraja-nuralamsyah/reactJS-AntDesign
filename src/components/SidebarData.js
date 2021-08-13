@@ -1,8 +1,8 @@
 export const SidebarData = [
     {
-        title: 'Task',
-        path: '/Task',
-        key: 'Task'
+        title: 'Data Quality',
+        path: '/dataQuality',
+        key: 'DataQuality'
     },
     {
         title: 'Customer',
