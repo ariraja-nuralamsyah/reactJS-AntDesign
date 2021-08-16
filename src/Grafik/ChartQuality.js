@@ -42,6 +42,7 @@ function ChartQuality() {
         series.stroke = am4core.color("#ff0000"); // red
         series.strokeWidth = 2; // 2px
         series.tooltipText = "{valueY.value}";
+        series.tensionX = 0.77;
         x.cursor = new am4charts.XYCursor();
         
         let bullet = series.bullets.push(new am4charts.LabelBullet());
