@@ -9,4 +9,9 @@ export const SidebarData = [
         path: '/customers',
         key: 'Customer'
     },
+    {
+        title: 'Dashboard Quality',
+        path: '/dashboardQuality',
+        key: 'DashboardQuality'
+    },
 ]
