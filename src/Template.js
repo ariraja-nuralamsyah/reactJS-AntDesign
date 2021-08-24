@@ -10,6 +10,7 @@ import Dashboard from './pages/DashboardView'
 import DataQuality from './pages/DataQualityView'
 import CustomerList from './pages/CustomerListView';
 import CustomerEdit from './pages/CustomerEditView';
+// import DashboardQuality from './pages/DashboardPage';
 
 const { Content } = Layout;
 
@@ -36,6 +37,10 @@ function Template() {
                         <Route path='/customers'>
                           <Breadcrumb.Item>About Us</Breadcrumb.Item>
                           <Breadcrumb.Item>Customer</Breadcrumb.Item>
+                        </Route>
+                        <Route path='/dashboardQuality'>
+                          <Breadcrumb.Item>About Us</Breadcrumb.Item>
+                          <Breadcrumb.Item>Dashboard Quality</Breadcrumb.Item>
                         </Route>
                       </Switch>
                     </Breadcrumb>
